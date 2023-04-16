@@ -1,0 +1,16 @@
+{
+  "name": "CSCI370 Project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo app",
+  "keywords": [
+    "myapp"
+  ],
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "oracledb": "^5.5.0"
+  },
+  "author": "Myles Coleman",
+  "license": "MIT"
+}

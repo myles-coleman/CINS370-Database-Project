@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
     <title>DB Project 3</title>
+    <script defer src="../scripts/app.js"></script>
 </head>
 <body>
 
@@ -15,8 +16,7 @@
         </div>
 
         <div class="btn-container">
-            <button>Query 1</button>
-            <!--make query 1 a sql backend query-->
+            <button id="query1" type="button">Query 1</button>
             <button>Query 2</button>
             <button>Query 3</button>
             <h2>Please choose from the premade queries or specify which entities and attributes you would like to generate a query for.</h2>
@@ -24,6 +24,8 @@
             <button>Generate New Query</button>
         </div>
     </div>
+
+    <div id="result"></div>
     
 </body>
 </html>
